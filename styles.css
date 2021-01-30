@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    font-family: poppins, sans-serif;
+}
+header{
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+span{
+    background-color: white;
+    color: black;
+}
+.enter-item{
+    margin-left: 630px;
+    margin-top: 100px;
+}
+.input-field{
+    height: 40px;
+    width: 400px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+.items{
+    margin-top: 50px;
+    margin-left:630px;
+}
+.item-field{
+    height: 40px;
+    width: 400px;
+    font-size: 1.5rem;
+    background-color: black;
+    border: none;
+    border-bottom: 5px solid white;
+    color: white;
+}
+button{
+    height: 40px;
+    width: 50px;
+    margin-left: 10px;
+    background-color: greenyellow;
+    cursor:pointer;
+}
+.fa-pencil-alt, .fa-trash-alt{
+    pointer-events: none;
+}
